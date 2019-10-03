@@ -1,14 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="cSugerencia.aspx.cs" Inherits="RegistrodeSugerencia.Consulta.cSugerencia" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-
-
-
-
-</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    
+     <div class="panel" style="background-color: #ff7101">
+        <div class="panel-heading" style="font-family: Arial Black; font-size: 20px; text-align:center; color: Black">Consulta de Sugerencias</div>
+    </div>
 
     <div class="panel panel-primary">
         <div class="panel-body">
