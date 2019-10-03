@@ -13,22 +13,40 @@ namespace RegistrodeSugerencia.Consulta {
     public partial class cSugerencia {
         
         /// <summary>
-        /// ScriptManager1 control.
+        /// DesdeFecha control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.ScriptManager ScriptManager1;
+        protected global::System.Web.UI.WebControls.TextBox DesdeFecha;
         
         /// <summary>
-        /// FiltroDropDownList control.
+        /// HastaFecha control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList FiltroDropDownList;
+        protected global::System.Web.UI.WebControls.TextBox HastaFecha;
+        
+        /// <summary>
+        /// FiltroDropDown control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList FiltroDropDown;
+        
+        /// <summary>
+        /// CheckBoxFecha control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CheckBoxFecha;
         
         /// <summary>
         /// CriterioTextBox control.
@@ -49,39 +67,12 @@ namespace RegistrodeSugerencia.Consulta {
         protected global::System.Web.UI.WebControls.Button BuscarButton;
         
         /// <summary>
-        /// DesdeTextBox control.
+        /// Grid control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox DesdeTextBox;
-        
-        /// <summary>
-        /// HastaTextBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox HastaTextBox;
-        
-        /// <summary>
-        /// FechaCheckBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox FechaCheckBox;
-        
-        /// <summary>
-        /// DatosGridView control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView DatosGridView;
+        protected global::System.Web.UI.WebControls.GridView Grid;
     }
 }

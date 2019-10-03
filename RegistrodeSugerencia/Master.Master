@@ -24,14 +24,28 @@
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Registro <span class="caret"></span></a>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Registros <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="/Registros/rSugerencias.aspx">Sugerencias</a></li>
-          <li><a href="~/PagoWF.aspx">Pago</a></li>
+          
         </ul>
       </li>
-      <li><a href="#">Conulta</a></li>
+     
+
     </ul>
+
+          <ul class="nav navbar-nav">
+
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Consultas <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Consulta/cSugerencia.aspx">Sugerencias</a></li>
+          
+        </ul>
+      </li>
+ 
+
+    </ul>
+
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
       <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
