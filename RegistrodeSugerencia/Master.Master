@@ -82,8 +82,10 @@
         .navbar-inverse .navbar-nav>li>a { color: #000000}
 
     </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
 
-    <asp:PlaceHolder ID="head" runat="server"></asp:PlaceHolder>
+    
 </head>
 <body>
     <form id="form1" runat="server">
@@ -115,8 +117,8 @@
                         </li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown"  style="font-family:Arial; font-size:16px">Consultas<span class="caret"></span></a>
-                            <ul class="dropdown-menu" style="font-family:Arial; font-size:16px"
-                             <li><a href="/Consulta/cSugerencia.aspx">Sugerencias</a></li>>
+                            <ul class="dropdown-menu" style="font-family:Arial; font-size:16px">
+                             <li><a href="/Consulta/cSugerencia.aspx">Sugerencias</a></li>
                             </ul>
                         </li>
                         <li><a href="#" style="font-family:Arial; font-size:16px">Ayuda</a></li>

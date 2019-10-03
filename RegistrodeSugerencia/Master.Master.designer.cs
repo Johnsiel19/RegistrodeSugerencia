@@ -19,7 +19,7 @@ namespace RegistrodeSugerencia {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder head;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
         
         /// <summary>
         /// form1 control.
